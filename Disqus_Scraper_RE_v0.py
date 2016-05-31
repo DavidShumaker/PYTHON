@@ -11,7 +11,7 @@ sForum = 'breitbartproduction'
 sThread = '4849504492'  #clintoncash        #trump_immig'4847389789'
 sLimit = '100'          # limit is 25 to 100
 sOrder = 'desc'         # asc (oldest), desc (newest) 
-sAPI_KEY = 'cXmNXfjrvXey4X8T7r66HTFptBMLOXGrxgBFVUCeUDgpKnUYt6XME8BrrwtwZNCl'
+sAPI_KEY = '<enter your API key here>'
 file_name = '/root/test/scrapingEnv/data_capture/userData' + datetime.datetime.now().strftime("%Y%m%d-%H%M%S") + '.txt'
 #URL0 lists users and cursor position post/list
 URL0 = "https://disqus.com/api/3.0/posts/list.json?forum=%s&thread=%s&limit=%s&order=%s&api_key=%s" % (sForum, sThread, sLimit, sOrder, sAPI_KEY)
